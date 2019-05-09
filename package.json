@@ -1,5 +1,5 @@
 {
-  "name": "el-element",
+  "name": "@ecom/web-components",
   "main": "el-element.js",
   "author": "guowenyu.smile",
   "repository": "git@code.byted.org:guowenyu.smile/web-components.git",
@@ -45,6 +45,7 @@
     "@polymer/test-fixture": "^4.0.2",
     "autoprefixer": "9.4.7",
     "babel-loader": "8.0.5",
+    "babel-plugin-transform-runtime": "6.23.0",
     "chai": "^4.2.0",
     "clean-webpack-plugin": "1.0.1",
     "concurrently": "4.1.0",
