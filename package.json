@@ -1,7 +1,8 @@
 {
-  "name": "@ecom/web-components",
+  "name": "@guowenyu.smile/web-components",
   "main": "el-element.js",
   "author": "guowenyu.smile",
+  "version": "0.1.0",
   "repository": "git@code.byted.org:guowenyu.smile/web-components.git",
   "scripts": {
     "build": "webpack",

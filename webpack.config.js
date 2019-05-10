@@ -166,7 +166,7 @@ module.exports = {
     overlay: {
       errors: true
     },
-    port: 3000,
+    port: 3008,
     host: '127.0.0.1',
     disableHostCheck: true
   }

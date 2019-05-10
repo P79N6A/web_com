@@ -4,7 +4,7 @@ import {LitElement, html, customElement, property, unsafeCSS} from 'lit-element'
 import template from './template';
 
 @customElement('luban-image')
-export default class LubanImage extends LitElement {
+class LubanImage extends LitElement {
   static readonly styles = unsafeCSS(require('./style.pcss'));
 
   @property({attribute: true})
@@ -54,3 +54,5 @@ export default class LubanImage extends LitElement {
     return html`${template(this, classList.join(' '))}`;
   }
 }
+
+export { LubanImage }
