@@ -54,6 +54,10 @@
       align-items: center;
       height: 100vh;
     }
+
+    luban-button {
+      margin: 0 20px;
+    }
 	</style>
 
   <script>
@@ -72,7 +76,16 @@
 
 <body>
   <luban-image src="https://c.disquscdn.com/uploads/users/16678/5257/avatar92.jpg?1556243735" round="true" width="100px" ratio="1:1"></luban-image>
-  <luban-image src="" round="true" width="100px" ratio="1:1"></luban-image>
+  <luban-image src="https://c.disquscdn.com/uploads/users/16678/5257/avatar92.jpg?1556243735"  width="100px" height="200px"></luban-image>
+  
+  <br />
+  <luban-button>
+    <p>test slot</p>
+  </luban-button>
+  <luban-button text="text attribute" color="white" background-color="pink"></luban-button>
+  <luban-button text="text attribute" color="red" radius="4px" width="80px" height="32px">
+    <span>button</span>
+  </luban-button>
   <script defer src="<%= htmlWebpackPlugin.options.paths.webcomponents %>"></script>
 </body>
 

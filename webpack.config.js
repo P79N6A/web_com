@@ -145,7 +145,7 @@ module.exports = {
                 targets: {
                   browsers: [
                     // Best practice: https://github.com/babel/babel/issues/7789
-                    ">0.25%",
+                    ">=0.5%",
                     "not ie 11",
                     "not op_mini all"
                   ]
@@ -153,13 +153,7 @@ module.exports = {
                 debug: true
               }
             ]],
-            plugins: [
-              ['@babel/plugin-syntax-object-rest-spread', {useBuiltIns: true}],
-              ["transform-runtime", {
-                "polyfill": false,
-                "regenerator": true
-              }]
-            ]
+            plugins: [['@babel/plugin-syntax-object-rest-spread', {useBuiltIns: 'entry'}]]
           }
         }
       }

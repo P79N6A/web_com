@@ -1,9 +1,10 @@
 import { html } from 'lit-element';
 
 export default (self, classList = '') => html`
-<style lang="postcss">
+<style>
     .wrapper {
         width: ${self.width};
+        height: ${self.height};
         padding-top: ${self.paddingTop || 0};
         border-radius: ${self.radius}
     }
